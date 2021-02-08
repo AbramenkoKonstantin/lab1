@@ -44,6 +44,7 @@ namespace ConsoleApp1
                         {
                             char firstDigit = number[0];
                             char secondDigit = number[number.Length - 1];
+                            Console.Write("Число х = ");
                             Console.Write(firstDigit);
                             Console.Write(secondDigit);
                             for (int i = 1; i < number.Length - 1; ++i)
