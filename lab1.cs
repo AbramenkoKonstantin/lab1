@@ -41,6 +41,7 @@ namespace ConsoleApp1
                         {
                             Console.WriteLine("Число меньше 100");
                         }
+                        
                         else
                         {
                             char firstDigit = number[0];
