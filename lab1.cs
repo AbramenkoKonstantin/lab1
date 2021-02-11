@@ -32,6 +32,7 @@ namespace ConsoleApp1
                         Console.ReadKey();
                     }
                 break;
+                    
                 case 2:
                     {
                         Console.Write("Введите число: ");
