@@ -32,7 +32,6 @@ namespace ConsoleApp1
                         Console.ReadKey();
                     }
                 break;
-
                 case 2:
                     {
                         Console.Write("Введите число: ");
@@ -49,10 +48,12 @@ namespace ConsoleApp1
                             Console.Write("Число х = ");
                             Console.Write(firstDigit);
                             Console.Write(secondDigit);
+                            
                             for (int i = 1; i < number.Length - 1; ++i)
                             {
                                 Console.Write(number[i]);
                             }
+                            
                             Console.WriteLine();
                             Console.ReadKey();
                         }
