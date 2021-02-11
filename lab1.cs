@@ -1,4 +1,4 @@
-﻿/**********************************
+/**********************************
 *  Выполнил Абраменко Константин  * 
 *      Студент группы ПИ-203      *
 *              Лаб 1              *
@@ -22,20 +22,22 @@ namespace ConsoleApp1
                         Console.Write("Введите степень: ");
                         int degree = Convert.ToInt32(Console.ReadLine());
                         int result = 1;
+                        
                         for (int i = 0; i < degree; ++i)
                         {
                             result = result * number;
                         }
+                        
                         Console.WriteLine(result);
                         Console.ReadKey();
                     }
-
                 break;
 
                 case 2:
                     {
                         Console.Write("Введите число: ");
                         string number = Console.ReadLine();
+                        
                         if (number.Length < 3)
                         {
                             Console.WriteLine("Число меньше 100");
@@ -56,7 +58,6 @@ namespace ConsoleApp1
                         }
                     }
                 break;
-
             }
         }
     }
